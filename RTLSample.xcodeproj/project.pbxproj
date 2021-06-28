@@ -15,6 +15,7 @@
 		F29F093B2689AF590064D897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29F09392689AF590064D897 /* LaunchScreen.storyboard */; };
 		F29F09462689AF5A0064D897 /* RTLSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F09452689AF5A0064D897 /* RTLSampleTests.swift */; };
 		F29F09512689AF5A0064D897 /* RTLSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F09502689AF5A0064D897 /* RTLSampleUITests.swift */; };
+		F29F0961268A937E0064D897 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F0960268A937E0064D897 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F29F094C2689AF5A0064D897 /* RTLSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTLSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29F09502689AF5A0064D897 /* RTLSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTLSampleUITests.swift; sourceTree = "<group>"; };
 		F29F09522689AF5A0064D897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29F0960268A937E0064D897 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				F29F09302689AF570064D897 /* SceneDelegate.swift */,
 				F29F09322689AF570064D897 /* ViewController.swift */,
 				F29F09342689AF570064D897 /* Main.storyboard */,
+				F29F0960268A937E0064D897 /* ContentView.swift */,
 				F29F09372689AF590064D897 /* Assets.xcassets */,
 				F29F09392689AF590064D897 /* LaunchScreen.storyboard */,
 				F29F093C2689AF590064D897 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				F29F09332689AF570064D897 /* ViewController.swift in Sources */,
 				F29F092F2689AF570064D897 /* AppDelegate.swift in Sources */,
+				F29F0961268A937E0064D897 /* ContentView.swift in Sources */,
 				F29F09312689AF570064D897 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
