@@ -46,11 +46,105 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="33" y="13"/>
+            <point key="canvasLocation" x="803" y="-723"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gVD-wb-mNG">
+            <objects>
+                <viewController id="OK9-bI-IUe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gQo-gj-iI5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQY-QS-Cq0">
+                                <rect key="frame" x="16" y="115.5" width="382" height="203"/>
+                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blog Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4AO-Tt-PJM">
+                                <rect key="frame" x="16" y="60" width="122" height="33.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 June 2021" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b70-bN-rwb">
+                                <rect key="frame" x="16" y="334.5" width="382" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oVe-wa-8Ud"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FQY-QS-Cq0" firstAttribute="top" secondItem="4AO-Tt-PJM" secondAttribute="bottom" constant="22" id="7gm-iP-o32"/>
+                            <constraint firstItem="b70-bN-rwb" firstAttribute="leading" secondItem="oVe-wa-8Ud" secondAttribute="leading" constant="16" id="A3E-Dc-MDt"/>
+                            <constraint firstItem="4AO-Tt-PJM" firstAttribute="leading" secondItem="oVe-wa-8Ud" secondAttribute="leading" constant="16" id="Agx-ih-Npx"/>
+                            <constraint firstItem="b70-bN-rwb" firstAttribute="top" secondItem="FQY-QS-Cq0" secondAttribute="bottom" constant="16" id="Iyj-LA-7io"/>
+                            <constraint firstItem="oVe-wa-8Ud" firstAttribute="trailing" secondItem="b70-bN-rwb" secondAttribute="trailing" constant="16" id="L9V-Kp-DiE"/>
+                            <constraint firstItem="oVe-wa-8Ud" firstAttribute="trailing" secondItem="FQY-QS-Cq0" secondAttribute="trailing" constant="16" id="jhn-Nc-7fA"/>
+                            <constraint firstItem="FQY-QS-Cq0" firstAttribute="leading" secondItem="oVe-wa-8Ud" secondAttribute="leading" constant="16" id="nKI-NT-5XZ"/>
+                            <constraint firstItem="4AO-Tt-PJM" firstAttribute="top" secondItem="oVe-wa-8Ud" secondAttribute="top" constant="16" id="vEh-jd-YhT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I71-hm-WrV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="803" y="15"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9bZ-h7-P2p">
+            <objects>
+                <viewController id="vy1-nK-Yqu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UDY-Ca-6iD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0c-lz-Suf">
+                                <rect key="frame" x="16" y="115.5" width="382" height="203"/>
+                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blog Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEv-ry-kEh">
+                                <rect key="frame" x="16" y="60" width="122" height="33.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 June 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBE-Go-9PS">
+                                <rect key="frame" x="305" y="334.5" width="93" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="t9L-OJ-tWW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DEv-ry-kEh" firstAttribute="leading" secondItem="t9L-OJ-tWW" secondAttribute="leading" constant="16" id="898-Xw-dEA"/>
+                            <constraint firstItem="DEv-ry-kEh" firstAttribute="top" secondItem="t9L-OJ-tWW" secondAttribute="top" constant="16" id="AvP-b6-Tqi"/>
+                            <constraint firstItem="t9L-OJ-tWW" firstAttribute="trailing" secondItem="sBE-Go-9PS" secondAttribute="trailing" constant="16" id="FJn-JD-KAR"/>
+                            <constraint firstItem="sBE-Go-9PS" firstAttribute="top" secondItem="u0c-lz-Suf" secondAttribute="bottom" constant="16" id="TNk-EA-rqF"/>
+                            <constraint firstItem="u0c-lz-Suf" firstAttribute="leading" secondItem="t9L-OJ-tWW" secondAttribute="leading" constant="16" id="aMd-MT-yEU"/>
+                            <constraint firstItem="t9L-OJ-tWW" firstAttribute="trailing" secondItem="u0c-lz-Suf" secondAttribute="trailing" constant="16" id="iuy-Nz-W0k"/>
+                            <constraint firstItem="u0c-lz-Suf" firstAttribute="top" secondItem="DEv-ry-kEh" secondAttribute="bottom" constant="22" id="yZC-4L-0j6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sNV-1s-UWW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1611" y="16"/>
         </scene>
     </scenes>
     <resources>
         <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
