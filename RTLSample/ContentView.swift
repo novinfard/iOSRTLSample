@@ -21,6 +21,13 @@ struct ContentView: View {
                 image
                 Spacer()
             }
+
+            // a Persian number
+            Text(String("۱۲۳۱۲۳۵۶"))
+
+            // a Persian number converted to its English equivalent
+            Text(String("۱۲۳۱۲۳۵۶".toEnglishNumberInt ?? 0))
+
             Spacer()
         }
     }
@@ -51,6 +58,6 @@ struct ContentView_Previews: PreviewProvider {
                 .environment(\.layoutDirection, .rightToLeft)
                 .previewDisplayName("Right To Left")
         }
-        .previewLayout(.fixed(width: 400, height: 200))
+        .previewLayout(.fixed(width: 400, height: 300))
     }
 }
