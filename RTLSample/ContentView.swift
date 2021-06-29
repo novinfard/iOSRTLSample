@@ -30,6 +30,7 @@ struct ContentView: View {
 
             Spacer()
         }
+        .padding(16)
     }
 
     @ViewBuilder
