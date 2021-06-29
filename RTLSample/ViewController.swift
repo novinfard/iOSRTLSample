@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        imageView.image = UIImage(systemName: "pencil.circle.fill")?.imageFlippedForRightToLeftLayoutDirection()
+        let image = UIImage(systemName: "pencil.circle.fill")
+        if self.view.effectiveUserInterfaceLayoutDirection == .rightToLeft {
+            imageView.image = image?.imageFlippedForRightToLeftLayoutDirection()
+        } else {
+            imageView.image = image
+        }
     }
 }
