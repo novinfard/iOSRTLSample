@@ -18,6 +18,7 @@
 		F29F0961268A937E0064D897 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F0960268A937E0064D897 /* ContentView.swift */; };
 		F29F0964268AAB2F0064D897 /* NumberHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F0963268AAB2F0064D897 /* NumberHelper.swift */; };
 		F29F0966268B22C40064D897 /* BlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F0965268B22C40064D897 /* BlogView.swift */; };
+		F29F097D268D083C0064D897 /* BeyondLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29F097C268D083C0064D897 /* BeyondLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F29F0960268A937E0064D897 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F29F0963268AAB2F0064D897 /* NumberHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberHelper.swift; sourceTree = "<group>"; };
 		F29F0965268B22C40064D897 /* BlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogView.swift; sourceTree = "<group>"; };
+		F29F097C268D083C0064D897 /* BeyondLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyondLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				F29F09322689AF570064D897 /* ViewController.swift */,
 				F29F09342689AF570064D897 /* Main.storyboard */,
 				F29F0960268A937E0064D897 /* ContentView.swift */,
+				F29F097C268D083C0064D897 /* BeyondLayoutView.swift */,
 				F29F0965268B22C40064D897 /* BlogView.swift */,
 				F29F09372689AF590064D897 /* Assets.xcassets */,
 				F29F09392689AF590064D897 /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 				F29F0961268A937E0064D897 /* ContentView.swift in Sources */,
 				F29F0964268AAB2F0064D897 /* NumberHelper.swift in Sources */,
 				F29F0966268B22C40064D897 /* BlogView.swift in Sources */,
+				F29F097D268D083C0064D897 /* BeyondLayoutView.swift in Sources */,
 				F29F09312689AF570064D897 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

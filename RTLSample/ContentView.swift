@@ -22,12 +22,6 @@ struct ContentView: View {
                 Spacer()
             }
 
-            // a Persian number
-            Text(String("۱۲۳۱۲۳۵۶"))
-
-            // a Persian number converted to its English equivalent
-            Text(String("۱۲۳۱۲۳۵۶".toEnglishNumberInt ?? 0))
-
             Spacer()
         }
         .padding(16)
